@@ -2,7 +2,7 @@ interface CarouselDataType {
     image: string;
     path: string;
 }
-interface GentsKurtatype extends CarouselDataType {
+export interface GentsKurtaType extends CarouselDataType {
     title: string;
     description: string;
 }
@@ -21,7 +21,7 @@ export const carouselData: CarouselDataType[] = [
     }
 ]
 
-export const gentsKurta: GentsKurtatype[] = [
+export const gentsKurta: GentsKurtaType[] = [
     {
         title: 'Yellow white kurta',
         description: 'Amazing yellow and white color kurta for men',

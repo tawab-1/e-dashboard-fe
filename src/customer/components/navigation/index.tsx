@@ -303,7 +303,7 @@ export const CustomerNavigation = observer(() => {
                   <span className="sr-only">Your Company</span>
                   <img
                     className="h-8 w-auto"
-                    src="./src/assets/dashboard.svg"
+                    src="./public/assets/images/dashboard.svg"
                     alt="logo"
                   />
                 </a>

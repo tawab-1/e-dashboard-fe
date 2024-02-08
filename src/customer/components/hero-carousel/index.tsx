@@ -10,6 +10,7 @@ export const Carousel = observer(() => {
     return (<AliceCarousel
         items={items}
         disableButtonsControls
+        disableDotsControls
         autoPlay
         infinite
         autoPlayInterval={2000}

@@ -18,7 +18,7 @@ export const CommonCard = ({img, cardContent, style, imgHeight, hoverShadow}: ca
         {img && typeof img === 'string' ? 
           <CardMedia
           component='img'
-          style={{height: imgHeight ?? 430}}
+          style={{height: imgHeight ?? '', objectFit: 'cover'}}
           image={img}
           alt={'card image'}
           /> :
